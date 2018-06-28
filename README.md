@@ -1,6 +1,6 @@
 # CodeChallenge
 
-This project is used to implement the "Add Properties" and "Remove Properties"
+This project is used to implement the "Request an invitation"
 
 ## Supported Platforms
 The project can be run in MacOS, Windows or Linux 
@@ -12,15 +12,15 @@ In order to easily setup and manage all the development dependencies, setting up
 
 Run the following command to startup the application
 ```
-git clone https://github.com/JieHeJessie/REAGroupCodeChallenge
-cd REAGroupCodeChallenge
+git clone https://github.com/JieHeJessie/RequestInvite
+cd RequestInvite
 npm install
 npm start
 
 ```
 ## Testing of the application
 
-This project used jest and Enzyme to test the component. Run the following command to check unit tests.
+This project used jest and Enzyme to test the component. Tests consist of "Reducer", "Action", and "Component". Run the following command to check unit tests.
 ```
 npm test
 
