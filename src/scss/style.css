@@ -1,0 +1,101 @@
+/* line 17, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+body {
+  background-image: url("../asset/bg.png"); }
+
+/* line 21, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-bottom: 1px solid #949494; }
+  /* line 26, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .header a {
+    font-size: 25px;
+    padding: 0.75rem;
+    font-weight: bold;
+    color: white; }
+
+/* line 33, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center; }
+
+/* line 42, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+.content {
+  color: white;
+  text-align: center;
+  margin-top: 10rem; }
+  /* line 47, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .content h1 {
+    font-size: 5rem; }
+  /* line 50, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .content p {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+    font-weight: 100; }
+  /* line 55, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .content button {
+    margin-top: 4rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 15rem; }
+
+/* line 65, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+.modal-style {
+  margin-top: 15rem; }
+  /* line 68, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style input {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 85%;
+    line-height: 2.5rem; }
+  /* line 77, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #505050; }
+  /* line 82, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style p {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #505050; }
+  /* line 88, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style .error-text {
+    color: red;
+    margin-left: 2rem; }
+  /* line 92, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 2rem; }
+  /* line 98, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style .send-btn {
+    margin: 2rem;
+    background-color: #505050;
+    color: white;
+    width: 85%;
+    border-radius: 5px;
+    line-height: 2.5rem; }
+  /* line 106, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  .modal-style .ok-btn {
+    margin: 2rem;
+    background-color: #505050;
+    color: white;
+    width: 85%;
+    border-radius: 5px; }
+
+/*----------------------------------------responsive design--------------------------------------*/
+@media screen and (max-width: 576px) {
+  /* line 119, /Users/hejie/Desktop/CodeChallenge-master/src/scss/style.scss */
+  html {
+    font-size: 70%; } }
+
+/*# sourceMappingURL=style.css.map */

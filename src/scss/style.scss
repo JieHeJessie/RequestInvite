@@ -1,0 +1,129 @@
+//VARIABLES
+$border-white: #949494;
+$btn-color: #505050;
+
+
+
+//RESPONSIVE DESIGN VARIABLES
+$screen-sm:576px;
+$screen-md:992px;
+$screen-lg: 1200px;
+$screen-xl: 1600px;
+
+
+
+//BASIC STYLE
+
+body{
+    background-image: url("../asset/bg.png");
+}
+
+.header{
+    overflow: hidden;
+    padding: 20px 10px;
+    border-bottom: 1px solid $border-white;
+    
+    a{ 
+        font-size: 25px;
+        padding: 0.75rem;
+        font-weight: bold;
+        color: white;       
+    }
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    
+    h1{
+        font-size: 5rem;
+    }
+    p{
+        font-size:1.5rem;
+        margin-top: 1.3rem;
+        font-weight: 100;
+    }
+    button{
+        margin-top: 4rem;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        width: 15rem;
+        
+    }
+}
+.modal-style{
+    margin-top: 15rem;
+    
+    input{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 85%;
+        line-height: 2.5rem;
+    }
+    
+    h1{
+        text-align: center;
+        margin-top: 2rem;
+        color: $btn-color;
+    }
+    p{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: $btn-color;
+    }
+    .error-text{
+        color:red;
+        margin-left: 2rem;
+    }
+    .error-message{
+        color:red;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .send-btn{
+        margin: 2rem;
+        background-color: $btn-color;
+        color: white;
+        width: 85%;
+        border-radius: 5px;
+        line-height: 2.5rem;
+    }
+    .ok-btn{
+        margin: 2rem;
+        background-color: $btn-color;
+        color: white;
+        width: 85%;
+        border-radius: 5px;
+    }
+    
+}
+
+/*----------------------------------------responsive design--------------------------------------*/
+                 
+@media screen and (max-width:$screen-sm) {
+    html{
+        font-size: 70%;
+    }
+}
+
+@media screen and (min-width: $screen-md) and (max-width: $screen-lg) {
+     
+}
+@media screen and (min-width: $screen-lg) and (max-width: $screen-xl) {
+     
+}

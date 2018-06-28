@@ -1,0 +1,16 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "multihack-brackets.lastRoom": "tph-dev-firstproject-2017",
+            "linting.collapsed": false
+        }
+    }
+}
